@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - Drink
+  - 1
+  - 2
+  - 3
   layers:
   - Default
   - TransparentFX
@@ -12,10 +15,10 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
-  - 
-  - 
+  - Background
+  - 0
+  - 1
+  - 2
   - 
   - 
   - 
