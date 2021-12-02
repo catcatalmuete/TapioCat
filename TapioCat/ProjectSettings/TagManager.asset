@@ -8,6 +8,8 @@ TagManager:
   - 1
   - 2
   - 3
+  - Ice
+  - Hot
   layers:
   - Default
   - TransparentFX

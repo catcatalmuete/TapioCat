@@ -89,7 +89,7 @@ PrefabInstance:
       objectReference: {fileID: 3300628218768529319, guid: abd96051e073d48ada0b2ba917f91c88, type: 3}
     - target: {fileID: 3278054757423002720, guid: ed45fb7e6ea2a4e3db60baf3f91a4bc6, type: 3}
       propertyPath: m_Name
-      value: HotTopping (2)
+      value: Topping2Plating
       objectReference: {fileID: 0}
     - target: {fileID: 3278054757423002720, guid: ed45fb7e6ea2a4e3db60baf3f91a4bc6, type: 3}
       propertyPath: m_TagString
@@ -165,4 +165,5 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 1993932918, guid: ed45fb7e6ea2a4e3db60baf3f91a4bc6, type: 3}
+    - {fileID: 1993932920, guid: ed45fb7e6ea2a4e3db60baf3f91a4bc6, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: ed45fb7e6ea2a4e3db60baf3f91a4bc6, type: 3}
