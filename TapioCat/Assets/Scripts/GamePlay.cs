@@ -13,9 +13,19 @@ public class GamePlay : MonoBehaviour
     public static string tea2Cook = "empty";
     public static string tea3Cook = "empty";
 
-    // options are "empty", "full"
-    public static string plate1Topping = "empty";
-    public static string plate1Tea = "empty";
-    public static string plate2Topping = "empty";
-    public static string plate2Tea = "empty";
+    // plating station
+    // options are "none", "empty", "tea", "full"
+    public static string plate1Cup = "none";        // ice cup
+    public static string plate2Cup = "none";        // hot cup
+    // options are "0", "1", "2", "3"
+    public static int plate1Topping = 0;
+    public static int plate1Tea = 0;
+    public static int plate2Topping = 0;
+    public static int plate2Tea = 0;
+
+    // blender station
+    // options are "empty", "cooking", "full"
+    public static string blender = "empty";
+    // options are "0", "1", "2", "3"
+    public static int blender_contents = 0;
 }

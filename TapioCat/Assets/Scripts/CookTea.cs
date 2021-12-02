@@ -4,6 +4,10 @@ using UnityEngine;
 
 public class CookTea : MonoBehaviour
 {
+    /*************
+    Goes on each TeaCook object at blending station
+    *************/
+
     private float cookTime;
     public int timeTilCooked = 6;
 
@@ -18,13 +22,13 @@ public class CookTea : MonoBehaviour
             // TODO: add animations? add burning (add another range)?
             if (gameObject.CompareTag("1")){
                 print("tea1 cooked");
-                GamePlay.tea1Cook = "full";
+                GamePlay.blender = "full";
             } else if (gameObject.CompareTag("2")){
                 print("tea2 cooked");
-                GamePlay.tea2Cook = "full";
+                GamePlay.blender = "full";
             } else if (gameObject.CompareTag("3")){
-                print("tea2 cooked");
-                GamePlay.tea3Cook = "full";
+                print("tea3 cooked");
+                GamePlay.blender = "full";
             }
         }
     }

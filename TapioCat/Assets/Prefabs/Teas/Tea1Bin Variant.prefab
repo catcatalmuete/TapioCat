@@ -65,7 +65,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4614363617198595887, guid: 44c1b87d2011241718fb5e4c59b6ee9b, type: 3}
       propertyPath: m_Name
-      value: Tea1Bin
+      value: Tea1Bin Variant
       objectReference: {fileID: 0}
     - target: {fileID: 4614363617198595887, guid: 44c1b87d2011241718fb5e4c59b6ee9b, type: 3}
       propertyPath: m_Layer
@@ -120,9 +120,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c63d999f604f44abdba7782ab2f821a0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Obj1: {fileID: 0}
-  SP1: {fileID: 0}
-  Obj2: {fileID: 0}
-  SP2: {fileID: 0}
-  Obj3: {fileID: 0}
-  SP3: {fileID: 0}
+  Obj1C: {fileID: 0}
+  Obj1P: {fileID: 0}
+  Obj2C: {fileID: 0}
+  Obj2P: {fileID: 0}
+  Obj3C: {fileID: 0}
+  Obj3P: {fileID: 0}
+  SPP1_top: {fileID: 0}
+  SPP1_tea: {fileID: 0}
+  SPP2_top: {fileID: 0}
+  SPP2_tea: {fileID: 0}
