@@ -13,11 +13,15 @@ public class BinControl : MonoBehaviour
     Moves tea from bin to blender.
     *****************/
     public GameObject teaCook;
+    public AudioClip teaSound;
+    public AudioClip toppingSound;
+    AudioSource _audioSource;
 
     // Start is called before the first frame update
     void Start()
     {
         teaCook.SetActive(false);
+        _audioSource = GetComponent<AudioSource>();
     }
 
     void OnTriggerEnter2D(Collider2D other)
@@ -26,6 +30,7 @@ public class BinControl : MonoBehaviour
             if (GamePlay.blender == "empty"){
                 // put the tea in the blender
                 teaCook.SetActive(true);
+                _audioSource.PlayOneShot(teaSound);
                 GamePlay.blender = "cooking";
 
                 // keeping track of what tea is in there
