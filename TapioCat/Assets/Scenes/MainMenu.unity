@@ -1439,9 +1439,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   clips:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 8300000, guid: 836569452d4134514ab3d0b33ef0c9c8, type: 3}
+  - {fileID: 8300000, guid: f7c10a7f497df4181a4d97797ec50144, type: 3}
+  - {fileID: 8300000, guid: f7c10a7f497df4181a4d97797ec50144, type: 3}
+  - {fileID: 8300000, guid: ff96dd274a1a04e2b86e9d17586ca8b8, type: 3}
   - {fileID: 0}
   fadeImg: {fileID: 195688979}
 --- !u!4 &2092081508
