@@ -26,10 +26,20 @@ public class PlatingBinControl : MonoBehaviour
                     thisCup.SetActive(true);
                     GamePlay.plate1Cup = "empty";
                 }
+                else if (GamePlay.plate1Topping != 0){
+                    GamePlay.pickup = true;
+                    GamePlay.pickedDrink = "0"+GamePlay.plate1Tea+GamePlay.plate1Topping;
+                    print(GamePlay.pickedDrink);
+                }
             } else if (gameObject.CompareTag("Hot")){
                 if (GamePlay.plate2Cup == "none"){
                     thisCup.SetActive(true);
                     GamePlay.plate2Cup = "empty";
+                }
+                else if (GamePlay.plate2Topping != 0){
+                    GamePlay.pickup = true;
+                    GamePlay.pickedDrink = "1"+GamePlay.plate1Tea+GamePlay.plate1Topping;
+                    print(GamePlay.pickedDrink);
                 }
             }
         }
