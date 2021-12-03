@@ -48,6 +48,9 @@ public class CustomerOrder : MonoBehaviour
                 if (GamePlay.pickedDrink == drinkOrdered){ //if it's the thing we want
                     _audioSource.PlayOneShot(coins);
                     GamePlay.totalScore++;
+                    GamePlay.pickup = false;
+                    GamePlay.pickedDrink = "None";
+                    //other resets go here too, probably something with the serving area
                     gameObject.SetActive(false); //leave lmao
                 }
             }
