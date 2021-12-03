@@ -3418,28 +3418,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1852512921 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8975166969897459967, guid: e1a8df0543f53483d93a34ebada4fcde, type: 3}
-  m_PrefabInstance: {fileID: 2054396873}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1852512922
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1852512921}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: baaf126e01eeeb84cb091827f5d43e3f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  temp: []
-  teaTypes: []
-  toppingTypes: []
-  drinkOrdered: 
-  coins: {fileID: 8300000, guid: d4b55afd23dec8f47a268498aa68efe5, type: 3}
 --- !u!1 &1859444450 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6766673269301676687, guid: 4bfb926e35193493988cee583a17b514, type: 3}

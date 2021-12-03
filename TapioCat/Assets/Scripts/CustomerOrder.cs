@@ -19,14 +19,14 @@ public class CustomerOrder : MonoBehaviour
         _audioSource = GetComponent<AudioSource>();
 
         //set all cup variables to no
-        print("temp");
-        temp[0].SetActive(false);
-        temp[1].SetActive(false);
-        print("tea");
+        foreach (GameObject temps in temp){
+            temps.SetActive(false);
+        }
+        //temp[0].SetActive(false);
+        //temp[1].SetActive(false);
         foreach (GameObject teas in teaTypes){
             teas.SetActive(false);
         }
-        print("top");
         foreach (GameObject top in toppingTypes){
             top.SetActive(false);
         }
@@ -35,11 +35,8 @@ public class CustomerOrder : MonoBehaviour
         int tea = Random.Range(1,3);
         int topping = Random.Range(1,3);
         temp[ice].SetActive(true);
-        print("ice");
         teaTypes[tea-1].SetActive(true);
-        print("teaa");
         toppingTypes[topping-1].SetActive(true);
-        print("topp");
         drinkOrdered = ice.ToString()+tea.ToString()+topping.ToString();
     }
 
