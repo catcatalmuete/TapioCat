@@ -7,9 +7,13 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2548154816379582120, guid: e8b0209bd4ecf4a6eb2fe93783496c43, type: 3}
+      propertyPath: isTea
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4400788174827009664, guid: e8b0209bd4ecf4a6eb2fe93783496c43, type: 3}
       propertyPath: m_Name
-      value: Topping1
+      value: Topping1Decal Variant
       objectReference: {fileID: 0}
     - target: {fileID: 4400788174827009664, guid: e8b0209bd4ecf4a6eb2fe93783496c43, type: 3}
       propertyPath: m_Layer
@@ -25,15 +29,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4400788174827009666, guid: e8b0209bd4ecf4a6eb2fe93783496c43, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.33333334
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 4400788174827009666, guid: e8b0209bd4ecf4a6eb2fe93783496c43, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.15893334
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 4400788174827009666, guid: e8b0209bd4ecf4a6eb2fe93783496c43, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.33333334
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 4400788174827009666, guid: e8b0209bd4ecf4a6eb2fe93783496c43, type: 3}
       propertyPath: m_LocalPosition.x
@@ -77,19 +81,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4400788174827009667, guid: e8b0209bd4ecf4a6eb2fe93783496c43, type: 3}
       propertyPath: m_Color.b
-      value: 0.10199357
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4400788174827009667, guid: e8b0209bd4ecf4a6eb2fe93783496c43, type: 3}
       propertyPath: m_Color.g
-      value: 0.10199357
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4400788174827009667, guid: e8b0209bd4ecf4a6eb2fe93783496c43, type: 3}
       propertyPath: m_Color.r
-      value: 0.11320752
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4400788174827009667, guid: e8b0209bd4ecf4a6eb2fe93783496c43, type: 3}
       propertyPath: m_SortingOrder
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e8b0209bd4ecf4a6eb2fe93783496c43, type: 3}

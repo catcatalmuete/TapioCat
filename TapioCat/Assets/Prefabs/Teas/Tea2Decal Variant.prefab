@@ -13,15 +13,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3519677615547404694, guid: 0ffb2f1f02ab54defadbaea3289dd4f7, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.33333334
+      value: 0.4
       objectReference: {fileID: 0}
     - target: {fileID: 3519677615547404694, guid: 0ffb2f1f02ab54defadbaea3289dd4f7, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.47103333
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 3519677615547404694, guid: 0ffb2f1f02ab54defadbaea3289dd4f7, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.33333334
+      value: 0.4
       objectReference: {fileID: 0}
     - target: {fileID: 3519677615547404694, guid: 0ffb2f1f02ab54defadbaea3289dd4f7, type: 3}
       propertyPath: m_LocalPosition.x
@@ -65,23 +65,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6832113219325895952, guid: 0ffb2f1f02ab54defadbaea3289dd4f7, type: 3}
       propertyPath: m_Name
-      value: Tea2 Variant
+      value: Tea2Decal Variant
       objectReference: {fileID: 0}
     - target: {fileID: 6832113219325895952, guid: 0ffb2f1f02ab54defadbaea3289dd4f7, type: 3}
       propertyPath: m_TagString
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8378094134644555908, guid: 0ffb2f1f02ab54defadbaea3289dd4f7, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 85d467f7183e748ef9b8667d19cd7695, type: 3}
+    - target: {fileID: 8378094134644555908, guid: 0ffb2f1f02ab54defadbaea3289dd4f7, type: 3}
       propertyPath: m_Color.b
-      value: 0.12437701
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8378094134644555908, guid: 0ffb2f1f02ab54defadbaea3289dd4f7, type: 3}
       propertyPath: m_Color.g
-      value: 0.6132076
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8378094134644555908, guid: 0ffb2f1f02ab54defadbaea3289dd4f7, type: 3}
       propertyPath: m_Color.r
-      value: 0.47595784
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0ffb2f1f02ab54defadbaea3289dd4f7, type: 3}

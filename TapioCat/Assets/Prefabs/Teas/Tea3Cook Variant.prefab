@@ -94,8 +94,32 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4913797072238647228, guid: a9f96586fbf664da2a0b674b01566d2a, type: 3}
+      propertyPath: m_Size.x
+      value: 0.6666667
+      objectReference: {fileID: 0}
+    - target: {fileID: 4913797072238647228, guid: a9f96586fbf664da2a0b674b01566d2a, type: 3}
+      propertyPath: m_Size.y
+      value: 0.8333333
+      objectReference: {fileID: 0}
+    - target: {fileID: 4913797072238647228, guid: a9f96586fbf664da2a0b674b01566d2a, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -2973561722059319794, guid: 679c8c684d99d4a38a247a7c9a645373, type: 3}
+    - target: {fileID: 4913797072238647228, guid: a9f96586fbf664da2a0b674b01566d2a, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4913797072238647228, guid: a9f96586fbf664da2a0b674b01566d2a, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4913797072238647228, guid: a9f96586fbf664da2a0b674b01566d2a, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4913797072238647228, guid: a9f96586fbf664da2a0b674b01566d2a, type: 3}
       propertyPath: m_SortingOrder
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7972816754584711720, guid: a9f96586fbf664da2a0b674b01566d2a, type: 3}
       propertyPath: m_Name

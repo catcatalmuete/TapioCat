@@ -45,6 +45,22 @@ PrefabInstance:
       propertyPath: m_Offset.y
       value: -0.7682775
       objectReference: {fileID: 0}
+    - target: {fileID: 321623166652833986, guid: 6cb6d47678b174db89a58ba00a2a4232, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.x
+      value: 0.32
+      objectReference: {fileID: 0}
+    - target: {fileID: 321623166652833986, guid: 6cb6d47678b174db89a58ba00a2a4232, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.y
+      value: 0.32
+      objectReference: {fileID: 0}
+    - target: {fileID: 321623166652833986, guid: 6cb6d47678b174db89a58ba00a2a4232, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 2.1333334
+      objectReference: {fileID: 0}
+    - target: {fileID: 321623166652833986, guid: 6cb6d47678b174db89a58ba00a2a4232, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 2.1333334
+      objectReference: {fileID: 0}
     - target: {fileID: 321623166652833996, guid: 6cb6d47678b174db89a58ba00a2a4232, type: 3}
       propertyPath: Obj1C
       value: 
@@ -73,9 +89,17 @@ PrefabInstance:
       propertyPath: SPP2_top
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 1024838220965660857, guid: 6cb6d47678b174db89a58ba00a2a4232, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2039472414751463787, guid: 6cb6d47678b174db89a58ba00a2a4232, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 2957563131456640212, guid: 6cb6d47678b174db89a58ba00a2a4232, type: 3}
       propertyPath: m_Name
-      value: IceCup
+      value: IceCup Variant
       objectReference: {fileID: 0}
     - target: {fileID: 2957563131456640214, guid: 6cb6d47678b174db89a58ba00a2a4232, type: 3}
       propertyPath: m_RootOrder
@@ -120,6 +144,38 @@ PrefabInstance:
     - target: {fileID: 2957563131456640214, guid: 6cb6d47678b174db89a58ba00a2a4232, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 2957563131456640215, guid: 6cb6d47678b174db89a58ba00a2a4232, type: 3}
+      propertyPath: m_Size.x
+      value: 0.32
+      objectReference: {fileID: 0}
+    - target: {fileID: 2957563131456640215, guid: 6cb6d47678b174db89a58ba00a2a4232, type: 3}
+      propertyPath: m_Size.y
+      value: 0.32
+      objectReference: {fileID: 0}
+    - target: {fileID: 2957563131456640215, guid: 6cb6d47678b174db89a58ba00a2a4232, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: ddb4198c6204846d2b1aedd666291661, type: 3}
+    - target: {fileID: 2957563131456640215, guid: 6cb6d47678b174db89a58ba00a2a4232, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2957563131456640215, guid: 6cb6d47678b174db89a58ba00a2a4232, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2957563131456640215, guid: 6cb6d47678b174db89a58ba00a2a4232, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2957563131456640215, guid: 6cb6d47678b174db89a58ba00a2a4232, type: 3}
+      propertyPath: m_SortingOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4622841239851683552, guid: 6cb6d47678b174db89a58ba00a2a4232, type: 3}
+      propertyPath: m_RootOrder
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6cb6d47678b174db89a58ba00a2a4232, type: 3}

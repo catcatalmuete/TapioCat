@@ -72,8 +72,32 @@ PrefabInstance:
       value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 7682562331854092987, guid: 44c1b87d2011241718fb5e4c59b6ee9b, type: 3}
-      propertyPath: m_SortingOrder
+      propertyPath: m_Size.x
+      value: 2.509804
+      objectReference: {fileID: 0}
+    - target: {fileID: 7682562331854092987, guid: 44c1b87d2011241718fb5e4c59b6ee9b, type: 3}
+      propertyPath: m_Size.y
+      value: 2.509804
+      objectReference: {fileID: 0}
+    - target: {fileID: 7682562331854092987, guid: 44c1b87d2011241718fb5e4c59b6ee9b, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: a44d26368a4ff45e9ad3f460d7c5c426, type: 3}
+    - target: {fileID: 7682562331854092987, guid: 44c1b87d2011241718fb5e4c59b6ee9b, type: 3}
+      propertyPath: m_Color.b
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7682562331854092987, guid: 44c1b87d2011241718fb5e4c59b6ee9b, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7682562331854092987, guid: 44c1b87d2011241718fb5e4c59b6ee9b, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7682562331854092987, guid: 44c1b87d2011241718fb5e4c59b6ee9b, type: 3}
+      propertyPath: m_SortingOrder
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 44c1b87d2011241718fb5e4c59b6ee9b, type: 3}
@@ -99,8 +123,8 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
-    newSize: {x: 1, y: 1}
+    oldSize: {x: 2.509804, y: 2.509804}
+    newSize: {x: 2.509804, y: 2.509804}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
@@ -120,13 +144,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c63d999f604f44abdba7782ab2f821a0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Obj1C: {fileID: 0}
-  Obj1P: {fileID: 0}
-  Obj2C: {fileID: 0}
-  Obj2P: {fileID: 0}
-  Obj3C: {fileID: 0}
-  Obj3P: {fileID: 0}
-  SPP1_top: {fileID: 0}
-  SPP1_tea: {fileID: 0}
-  SPP2_top: {fileID: 0}
-  SPP2_tea: {fileID: 0}
+  teaCook: {fileID: 0}
+  teaSound: {fileID: 0}
+  toppingSound: {fileID: 0}
