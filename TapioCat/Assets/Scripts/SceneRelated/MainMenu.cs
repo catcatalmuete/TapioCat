@@ -14,7 +14,7 @@ public class MainMenu : MonoBehaviour
     }
     public void play(){
         _audioSource.PlayOneShot(startSound);
-        _transitionManager.LoadScene("Main");
+        _transitionManager.LoadScene("Level1");
     }
     public void instructions(){
         _audioSource.PlayOneShot(startSound);

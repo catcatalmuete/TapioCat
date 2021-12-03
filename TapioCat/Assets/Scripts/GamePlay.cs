@@ -28,4 +28,14 @@ public class GamePlay : MonoBehaviour
     public static string blender = "empty";
     // options are "0", "1", "2", "3"
     public static int blender_contents = 0;
+
+    //player options
+    //options are false or true
+    public static bool pickup = false;
+    //real options are from "000" to "122" and is set to "None" on default
+    public static string pickedDrink = "None";
+    //I'm putting this here for testing, but it prob should go higher
+    //options are "0" to "3"
+    public static int totalScore = 0;
+    //
 }
