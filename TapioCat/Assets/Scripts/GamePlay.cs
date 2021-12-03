@@ -15,13 +15,13 @@ public class GamePlay : MonoBehaviour
 
     // plating station
     // options are "none", "empty", "tea", "full"
-    public static string plate1Cup = "none";        // ice cup
-    public static string plate2Cup = "none";        // hot cup
+    public static string plate1Cup = "none";        
+    //public static string plate2Cup = "none";       
     // options are "0", "1", "2", "3"
     public static int plate1Topping = 0;
     public static int plate1Tea = 0;
-    public static int plate2Topping = 0;
-    public static int plate2Tea = 0;
+    //public static int plate2Topping = 0;
+    //public static int plate2Tea = 0;
 
     // blender station
     // options are "empty", "cooking", "full"

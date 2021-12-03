@@ -21,16 +21,9 @@ public class PlatingBinControl : MonoBehaviour
     void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Player")){
-            if (gameObject.CompareTag("Ice")){
-                if (GamePlay.plate1Cup == "none"){
-                    thisCup.SetActive(true);
-                    GamePlay.plate1Cup = "empty";
-                }
-            } else if (gameObject.CompareTag("Hot")){
-                if (GamePlay.plate2Cup == "none"){
-                    thisCup.SetActive(true);
-                    GamePlay.plate2Cup = "empty";
-                }
+            if (GamePlay.plate1Cup == "none"){
+                thisCup.SetActive(true);
+                GamePlay.plate1Cup = "empty";
             }
         }
     }
